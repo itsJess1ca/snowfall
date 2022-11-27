@@ -1,0 +1,19 @@
+{
+  "name": "snowverlay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "build:watch": "tsc snowverlay.ts --outFile snowverlay.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
